@@ -1,0 +1,34 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+  <!-- uncomment lines below to include extra p5 libraries -->
+  <!-- <script language="javascript" src="libraries/p5.dom.js"></script> -->
+  <!--<script language="javascript" src="libraries/p5.sound.js"></script>-->
+  <script language="javascript" type="text/javascript" src="sketch.js"></script>
+  <!-- this line removes any default padding and style. you might only need one of these values set. -->
+  <style>
+
+    body { padding: 0; margin: 0; }
+    p { font-family: 'Share Tech Mono', monospace; font-size: 24px; }
+    /* canvas { position: fixed; top: 0; left: 0; z-index: 1 } */
+    /* xmp { background-color: #E0E0E0; padding: 10px; max-width: 450px; }  --used for grey boxes if need be*/
+
+    #contents { position: absolute; z-index: 2; padding: 30px; }
+    #bgSketch { position: fixed; top: 0; left: 0; height: 100%; width: 100%; z-index=1; }
+
+  </style>
+</head>
+
+<body>
+  <div id="bgSketch">
+  </div>
+  <div id="header">
+  </div>
+  <div id="contents">
+  </div>
+  <div id="footer">
+  </div>
+</body>
+</html>
